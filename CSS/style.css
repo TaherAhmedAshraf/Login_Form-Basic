@@ -1,0 +1,60 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+</style>
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(52, 73, 94);
+}
+
+.Form{
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    background: #ffffff;
+    width: 500px;
+    height: 250px;
+    margin-top: 200px;
+    padding: 80px 0px;
+}
+
+.Login-Form input{
+    padding: 20px 5px;
+    width: 250px;
+    border: 0;
+    background: #f5f5f5;
+    margin: 10px 0px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.Login-Form input:hover{
+    width: 300px;
+    transition: 0.5s;
+    
+}
+
+
+.Login-Form button{
+    width: 200px;
+    padding: 20px 0px;
+    background: rgb(68, 108, 179);
+    border: 0;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.Login-Form button:hover{
+    width: 250px;
+    transition: 0.5s;
+}
+
